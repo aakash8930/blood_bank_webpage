@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blood Availability | Intershala Blood Bank</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="looking_for_blood.css">
+</head>
+
+<body class="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed"
+    style="background-image: url('images/header.png');">
+
+    <header class="header">
+
+        <img src="images/bloodHeader.png" alt="logo">
+
+        <h1>Blood Bank Management System <span>Intershala</span></h1>
+    </header>
+
+    <div class="navbar ">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li class="dropdown"><a href="#">Looking for Blood</a></li>
+            <li><a href="add_blood_info.html">Add Blood Info</a></li>
+            <li><a href="login.html"><i class="fa-solid fa-circle-user" style="margin-right: 5px;"></i>User Login </a>
+            </li>
+            <div class="search_bar">
+                <input type="text" placeholder="Search">
+                <button type="submit">Go</button>
+            </div>
+        </ul>
+    </div>
+
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <img src="images/img5.png" alt="Image 1" width="100%">
+            </div>
+            <div class="slide">
+                <img src="images/img6.png" alt="Image 2" width="100%" height="330px">
+            </div>
+            <div class="slide">
+                <img src="images/img7.png" alt="Image 3" width="100%" height="330px">
+            </div>
+        </div>
+    </div>
+    <section class="blood-availability">
+        <h2>Blood Availability</h2>
+
+        <!-- Blood availability content goes here -->
+        <div class="blood-availability-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Blood Type</th>
+                        <th>Available Units</th>
+                        <!-- Add more table headers as needed -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example: Blood Type A -->
+                    <tr>
+                        <td>Blood Type A+</td>
+                        <td>100</td>
+                        <!-- Add more details as needed -->
+                    </tr>
+                    <tr>
+                        <td>Blood Type A-</td>
+                        <td>100</td>
+                        <!-- Add more details as needed -->
+                    </tr>
+
+                    <!-- Example: Blood Type B -->
+                    <tr>
+                        <td>Blood Type B-</td>
+                        <td>200</td>
+                        <!-- Add more details as needed -->
+                    </tr>
+                    <tr>
+                        <td>Blood Type B+</td>
+                        <td>200</td>
+                        <!-- Add more details as needed -->
+                    </tr>
+                    <tr>
+                        <td>Blood Type AB+</td>
+                        <td>150</td>
+                        <!-- Add more details as needed -->
+                    </tr>
+                    <tr>
+                        <td>Blood Type AB-</td>
+                        <td>150</td>
+                        <!-- Add more details as needed -->
+                    </tr>
+                    <tr>
+                        <td>Blood Type O-</td>
+                        <td>80</td>
+                        <!-- Add more details as needed -->
+                    </tr>
+                    <tr>
+                        <td>Blood Type O+</td>
+                        <td>80</td>
+                        <!-- Add more details as needed -->
+                    </tr>
+
+                    <!-- Add more blood types as needed -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <div class="sample-container">
+            <div class="sample-info">
+                <h2>Hospital Name</h2>
+                <label for="city">City:</label>
+                <select id="city" name="city">
+                    <option value="City1">City1</option>
+                    <option value="City2">City2</option>
+                    <option value="City2">City3</option>
+                    <option value="City2">City4</option>
+                    <option value="City2">City5</option>
+                    <!-- Add more options as needed -->
+                </select>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="Country1">Country1</option>
+                    <option value="Country2">Country2</option>
+                    <option value="Country2">Country3</option>
+                    <option value="Country2">Country4</option>
+                    <option value="Country2">Country5</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+            <button class="request-button">Request Sample</button>
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo">
+                    <h4></h4>
+                </a>
+                <h3>
+                    <a href="index.html" style="text-decoration: none; color: white; cursor: pointer;">Intershala Blood
+                        Bank |</a>
+                </h3>
+            </div>
+
+            <div class="footer__2">
+                <h4 style="cursor: pointer;">Permalinks</h4>
+                <ul class="permalink">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="lookin_for_blood.html">Looking for Blood</a></li>
+                    <li><a href="#">Blood Donation</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4 style="cursor: pointer;">Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; 2022 - All Rights Reserved - Intershala
+            </small>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/e46c3fe067.js" crossorigin="anonymous"></script>
+
+    <script>
+        const slider = document.querySelector('.slider');
+        let isTransitioning = false;
+
+        function nextSlide() {
+            if (!isTransitioning) {
+                isTransitioning = true;
+                slider.style.transition = 'transform 0.3s ease-in-out';
+                slider.style.transform = 'translateX(-100%)';
+
+                setTimeout(() => {
+                    const firstSlide = document.querySelector('.slide:first-child');
+                    slider.appendChild(firstSlide);
+                    slider.style.transition = 'none';
+                    slider.style.transform = 'translateX(0)';
+                    isTransitioning = false;
+                }, 500);
+            }
+        }
+
+        setInterval(nextSlide, 2000); // Change slide every 3 seconds
+    </script>
+
+
+</body>
+
+</html>

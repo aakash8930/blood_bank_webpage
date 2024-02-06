@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+html {
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+
+}
+
+.header img {
+    width: 7vw;
+    margin: 22px 0 0 5vw;
+}
+
+.header h1 {
+    color: rgba(251, 61, 61, 0.892);
+    margin: 20px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 span {
+    margin: 0;
+    padding: 0;
+    font-size: 3vh;
+    color: rgb(39, 184, 236);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    margin: 0;
+    background: linear-gradient(to right, #323232, #65dcd8b3, #b475ef, #00362f);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li a:hover {
+    color: black;
+   
+}
+
+.navbar li {
+    margin-right: 15px;
+}
+
+.navbar ul li {
+
+    padding: 0 30px 0 0;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li.dropdown {
+    position: relative;
+}
+
+.navbar ul li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar ul li.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 160px;
+}
+
+.navbar ul li.dropdown .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar ul li.dropdown .dropdown-content a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.search_bar {
+    display: flex;
+    flex-direction: row;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(images/hospital_reg_back.webp);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+select {
+    height: 34px;
+    /* Adjust height for consistency with other input fields */
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer {
+    color: white;
+    background: linear-gradient(to right, #1e0b0b, #025552b3, #390965, #00362f);
+    padding-top: 10px;
+    font-size: 20px;
+    max-height: 100%;
+    margin-top: 100px;
+
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin-top: 20px;
+}
+
+
+.footer ul li a {
+
+    padding: 8px;
+    color: #ffff;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+}
+
+
+.footer ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid orange;
+}
